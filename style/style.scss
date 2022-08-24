@@ -46,7 +46,37 @@ body{
 
 .main{
     .container{
-        width: 80%;
+        width: 90%;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .text{
+            width: 100%;
+            text-align: center;
+            margin: 60px;
+            h3{ 
+                font-size: 48px;
+                font-weight: 800;
+                color:rgb(54, 54, 54);
+            }
+            p{
+                margin: 10px 0;
+                font-size: 30px;
+            }
+        }
+
+        .photos{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 50px;
+            &__photo{
+                width: 400px;
+                height: 400px;
+                margin: 20px;
+                border-radius: 10px;
+            }
+        }
     }
 }
 
