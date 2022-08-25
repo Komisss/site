@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="header">
         <div class="header__top">
-            <p>Home</p>
-            <p>About</p>
+            <img class="mobile-logo" src="img/logo.svg" alt="логотип">
+            <p class="comp-text">Home</p>
+            <p class="comp-text">About</p>
             <img class="logo" src="img/logo.svg" alt="логотип">
-            <p>Service</p>
-            <p id="account">Account</p>
+            <p class="comp-text">Service</p>
+            <p class="comp-text" id="account">Account</p>
+            <div class="mobile-menu-button">
+                <i class="fa-solid fa-bars"></i>
+                <div class="mobile-menu-content">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Service</p>
+                    <p id="mobile-accaunt">Account</p>
+                </div>
+            </div>
         </div>
         <div class="header__middle">
             <h1>I am open sans 120px</h1>
@@ -34,5 +45,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
